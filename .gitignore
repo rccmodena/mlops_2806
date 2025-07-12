@@ -11,3 +11,9 @@ wheels/
 
 # Folders
 notebooks/mlruns/
+
+# Models
+*.joblib
+
+# Data
+data/tweets_limpo.csv
