@@ -27,7 +27,7 @@ jobs:
 
       - name: Executar notebook Validacao e Treino
         run: |
-          jupyter nbconvert --to notebook --execute notebooks/02_pipeline_validacao.ipynb --output 02_pipeline_validacao_output.ipynb --output-dir notebooks
+          jupyter nbconvert --to notebook --execute notebooks/02_pipeline_validacao_pandas.ipynb --output 02_pipeline_validacao_output.ipynb --output-dir notebooks
 
       - name: Executar notebook Monitoracao
         run: |
